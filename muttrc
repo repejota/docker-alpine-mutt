@@ -1,5 +1,5 @@
 source .mutt-colors.muttrc
-source mutt-raulperez-grn.muttrc
+source .mutt-raulperez-grn.muttrc
 
 # Paths ----------------------------------------------------------------------
 # set folder           = ~/.mail               # mailbox location

@@ -113,5 +113,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
+alias colortest=.config/base16-shell/colortest
+
 source $HOME/.config/bash-git-prompt/gitprompt.sh
 source $HOME/.config/base16-shell/base16-default.dark.sh
