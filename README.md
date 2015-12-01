@@ -9,5 +9,5 @@ $ docker build -t ubuntu .
 ## How to start
 
 ```
-$ docker run -ti --rf mutt
+$ docker run -v `pwd`:/src -ti --rm -t mutt
 ```
