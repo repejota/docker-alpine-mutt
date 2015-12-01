@@ -1,8 +1,6 @@
 # Change the following six lines to match your Gmail account details
 set imap_user = "raulperez@grn.es"
-set imap_pass = "fwabpr1"
 set smtp_url = "smtp://raulperez@grn.es@mail.grn.es:587/"
-set smtp_pass = "fwabpr1"
 set from = "raulperez@grn.es"
 set realname = "Raül Përez"
 
