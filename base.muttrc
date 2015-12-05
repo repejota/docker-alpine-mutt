@@ -1,8 +1,5 @@
-source .mutt-colors.muttrc
-source .mutt-raulperez-grn.muttrc
-
 # Paths ----------------------------------------------------------------------
-# set folder           = ~/.mail               # mailbox location
+# set folder           = ~/.Mail               # mailbox location
 set alias_file       = ~/.mutt/alias         # where to store aliases
 set header_cache     = ~/.mutt/cache/headers # where to store headers
 set message_cachedir = ~/.mutt/cache/bodies  # where to store bodies
@@ -52,7 +49,9 @@ set tilde                  # show tildes like in vim
 unset markers              # no ugly plus signs
 
 set quote_regexp = "^( {0,4}[>|:#%]| {0,4}[a-z0-9]+[>|]+)+"
-alternative_order text/plain text/enriched text/html
+
+auto_view text/html                                      # view html automatically
+alternative_order text/plain text/enriched text/html     # save html for last
 
 
 # Macros ---------------------------------------------

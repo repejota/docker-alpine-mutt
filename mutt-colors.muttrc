@@ -1,9 +1,11 @@
 # basic colors ---------------------------------------------------------
-color normal        color19        color0
-color indicator     color20    	   color18
-color tree          color19 	   color0				# arrow in threads
-color status 	    color19        color18
+color normal    color19		color0
+color indicator color20    	color18
+color tree      color19 	color0				# arrow in threads
+color status 	color19         color18
 
 # index ----------------------------------------------------------------
-color index         Red             color0         "~D(!~p|~p)"               # deleted
-color index         color17 	    color0         ~F                         # flagged
+color index     Red             color0         "~D(!~p|~p)"               # deleted
+color index     color17 	color0         "~F"                       # flagged
+color index 	color04		color0 	       "~N" 			  # new messages
+color index 	color10 	color0 	       "~N~p!~F" 		  # new messages to me

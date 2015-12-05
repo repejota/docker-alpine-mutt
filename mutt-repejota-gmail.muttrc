@@ -1,13 +1,13 @@
 # Change the following six lines to match your Gmail account details
-set imap_user = "raulperez@grn.es"
-set smtp_url = "smtp://raulperez@grn.es@mail.grn.es:587/"
-set from = "raulperez@grn.es"
+set imap_user = "repejota@gmail.com"
+set smtp_url = "smtp://repejota@gmail.com@smtp.gmail.com:587/"
+set from = "repejota@gmail.com"
 set realname = "Raül Përez"
 
-set folder = "imaps://mail.grn.es:993"
+set folder = "imaps://imap.gmail.com:993"
 set spoolfile = "+INBOX"
 set imap_check_subscribed
-set hostname = grn.es
+set hostname = gmail.com
 
 source .base.muttrc
 source .mutt-colors.muttrc
