@@ -1,5 +1,10 @@
 run: build
-	docker run -v `pwd`:/src -ti --rm -t mutt
+	docker run -v /etc/localtime:/etc/localtime:ro \
+		       -v `pwd`:/src \
+			   --name mutt \
+	           -ti \
+			   --rm \
+			   -t mutt
 
 build:
 	docker build -t mutt .
