@@ -1,5 +1,6 @@
 FROM debian:latest
 MAINTAINER Raül Perez <repejota@gmail.com>
+ENV TERM screen-256color
 ENV LANG C.UTF-8
 ENV HOME /root
 WORKDIR /root
@@ -18,4 +19,4 @@ RUN rm -f $HOME/.mutt-raulperez-grn.muttrc && ln -s /src/mutt-raulperez-grn.mutt
 RUN rm -f $HOME/.mutt-repejota-gmail.muttrc && ln -s /src/mutt-repejota-gmail.muttrc $HOME/.mutt-repejota-gmail.muttrc
 RUN rm -f $HOME/.gitconfig && ln -s /src/gitconfig $HOME/.gitconfig
 VOLUME /src
-CMD ["bash"]
+CMD ["tmux", "-2"]

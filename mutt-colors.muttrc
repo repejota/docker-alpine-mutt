@@ -1,8 +1,8 @@
 # basic colors ---------------------------------------------------------
-color normal    color19		color0
-color indicator color20    	color18
-color tree      color19 	color0				# arrow in threads
-color status 	color19         color18
+color normal    color08		color0
+color indicator color07    	color08
+color tree      color08 	color0				# arrow in threads
+color status 	color08         color0
 
 # index ----------------------------------------------------------------
 color index     Red             color0         "~D(!~p|~p)"               # deleted
