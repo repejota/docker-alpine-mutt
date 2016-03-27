@@ -3,6 +3,7 @@ MAINTAINER Raül Perez <repejota@gmail.com>
 ENV TERM screen-256color
 ENV LANG C.UTF-8
 ENV HOME /root
+ENV SHELL /bin/bash
 WORKDIR /root
 RUN apt-get update && \
     apt-get install -y ca-certificates vim-nox mutt links git tmux
