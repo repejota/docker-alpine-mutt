@@ -24,4 +24,9 @@ RUN mkdir -p $HOME/.mutt/cache/headers $HOME/.mutt/cache/bodies \
 
 ENV LANG C.UTF-8
 
+COPY entrypoint.sh /entrypoint.sh
+COPY .mutt $HOME/.mutt
+
+ENTRYPOINT ["/entrypoint.sh"]
+
 CMD ["mutt"]
