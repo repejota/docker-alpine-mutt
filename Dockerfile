@@ -29,4 +29,4 @@ COPY .mutt $HOME/.mutt
 
 ENTRYPOINT ["/entrypoint.sh"]
 
-CMD ["mutt"]
+CMD ["mutt", "-F", "~/.mutt/muttrc"]

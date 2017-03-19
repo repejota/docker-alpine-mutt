@@ -56,3 +56,5 @@ alternative_order text/plain text/enriched text/html     # save html for last
 
 # Macros ---------------------------------------------
 macro pager \cb <pipe-entry>'urlview'<enter> 'Follow links with urlview'
+
+set editor = "vim"

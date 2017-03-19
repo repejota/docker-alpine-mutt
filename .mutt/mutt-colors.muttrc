@@ -2,10 +2,10 @@
 color normal    color08		color0
 color indicator color07    	color08
 color tree      color08 	color0				# arrow in threads
-color status 	color08         color0
+color status 	color08     color0
 
 # index ----------------------------------------------------------------
-color index     Red             color0         "~D(!~p|~p)"               # deleted
-color index     color17 	color0         "~F"                       # flagged
+color index     Red         color0         "~D(!~p|~p)"       # deleted
+color index     color17 	color0         "~F"               # flagged
 color index 	color04		color0 	       "~N" 			  # new messages
 color index 	color10 	color0 	       "~N~p!~F" 		  # new messages to me

@@ -2,17 +2,12 @@
 set imap_user = "repejota@gmail.com"
 set smtp_url = "smtp://repejota@gmail.com@smtp.gmail.com:587/"
 set from = "repejota@gmail.com"
-set realname = "Raül Pérez"
+set realname = "Raül Përez"
 
-set folder = "imaps://imap.gmail.com"
+set folder = "imaps://imap.gmail.com:993"
 set spoolfile = "+INBOX"
 set imap_check_subscribed
 set hostname = gmail.com
-set mail_check = 60
-set timeout = 300
-set imap_keepalive = 300
-set postponed = "+[Gmail]/Drafts"
-set record = "" # gmail automatically handles saving sent emails
 
-source .base.muttrc
-source .mutt-colors.muttrc
+source ~/.mutt/base.muttrc
+source ~/.mutt/mutt-colors.muttrc
