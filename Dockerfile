@@ -9,12 +9,12 @@ RUN apk --no-cache add \
 	elinks \
 	git \
 	gnupg1 \
-	lynx \
+	links \
 	mutt \
 	mutt-doc \
 	vim
 
-ENV BROWSER lynx
+ENV BROWSER links
 
 USER user
 ENV HOME /home/user

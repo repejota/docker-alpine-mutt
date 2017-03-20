@@ -40,13 +40,12 @@
 # ~=              duplicated messages (see $duplicate_threads)
 
 # basic colors ---------------------------------------------------------
-color normal    color08		color0
-color indicator color07    	color08
-color tree      color08 	color0				# arrow in threads
-color status 	color08     color0
+color normal    color8		color0
+color indicator color7    	color8
+color tree      color8 	    color0				# arrow in threads
+color status 	color8      color0
 
 # index ----------------------------------------------------------------
-color index     color0      color1        "~D"       # deleted
-color index     color17 	color0         "~F"               # flagged
-color index 	color04		color0 	       "~N" 			  # new messages
-color index 	color10 	color0 	       "~N~p!~F" 		  # new messages to me
+color index 	color4		color0 	      "~N" 		# new
+color index     color0      color1        "~D"      # deleted
+color index     color1 	    color0        "~F"      # flagged
