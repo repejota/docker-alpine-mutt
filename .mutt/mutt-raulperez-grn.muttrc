@@ -8,6 +8,9 @@ set folder = "imaps://mail.grn.es:993"
 set spoolfile = "+INBOX"
 set imap_check_subscribed
 set hostname = grn.es
+set mail_check = 60
+set timeout = 300
+set imap_keepalive = 300
 
 source .base.muttrc
 source .mutt-colors.muttrc

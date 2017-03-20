@@ -11,8 +11,6 @@ set hostname = gmail.com
 set mail_check = 60
 set timeout = 300
 set imap_keepalive = 300
-set postponed = "+[Gmail]/Drafts"
-set record = "" # gmail automatically handles saving sent emails
 
 source .base.muttrc
 source .mutt-colors.muttrc
